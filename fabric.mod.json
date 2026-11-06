@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "autotpa",
+  "version": "1.0.0",
+  "name": "AutoTPA",
+  "description": "Automatycznie wysyla /tpa do wybranego gracza co X sekund.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.autotpa.AutoTpaClient"] },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
